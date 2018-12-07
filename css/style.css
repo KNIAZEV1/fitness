@@ -1,0 +1,37 @@
+.header {
+  display: inline-block;
+  width: 1100px;
+  height: 75px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.contacts {
+  display: inline-block;
+}
+
+.page-content {
+
+}
+
+.banner {
+  width: 1100px;
+  height: 625px;
+}
+
+.features {
+  width: 1100px;
+  height: 570px;
+  display: inline-block;
+}
+
+.news {
+  width: 1100px;
+  height: 960px;
+}
