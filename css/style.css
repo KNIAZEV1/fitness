@@ -1,36 +1,35 @@
 @font-face {
-font-family: 'OpenSans-Light';
-src: url(../fonts/OpenSans-Light.ttf) format('ttf');
-font-weight: Light;
-font-style: normal;
-}
-@font-face {
-font-family: 'OpenSans-Bold';
-src: url(../fonts/OpenSans-Bold.ttf) format('ttf');
-font-weight: bold;
-font-style: normal;
-}
-@font-face {
-font-family: 'OpenSans-LightItalic';
-src: url(../fonts/OpenSans-LightItalic.ttf) format('ttf');
-font-weight: Light;
-font-style: italic;
+    font-family: 'gorafree';
+    src: url("../fonts/gora-free-webfont.woff2") format('woff2'),
+         url("../fonts/gora-free-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
+  font-size: 16px;
   margin: 0;
   width: 100%;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.42;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 ul li {
-  padding: 0;
+  list-style: none;
 }
 
 h2 {
   text-align: center;
   font-size: 49px;
+  font-weight: 700;
   text-transform: uppercase;
-  font-family: 'OpenSans-Bold';
 }
 
 .wrapper {
@@ -39,24 +38,35 @@ h2 {
 
 .header {
   width: 100%;
-  height: 75px;
   background: #131415;
   position: relative;
+  color: #fff;
 }
 
 .container {
   width: 1060px;
   margin: 0 auto;
+  /* position: relative; */
+  /* height: 100%; */
+  background: inherit;
+}
+
+.header__container {
+  height: 75px;
   position: relative;
-  height: 100%;
 }
 
 .logo {
-  display: inline-block;
+  /* display: inline-block; */
   color: #f89513;
   position: absolute;
   top: 30px;
   left: 0;
+  font-family: 'gorafree', Times, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
 }
 
 .menu {
@@ -64,7 +74,8 @@ h2 {
   position: absolute;
   top: 10px;
   left: 360px;
-  font-family: 'OpenSans-Bold';
+  font-weight: 700;
+  text-align: center;
 }
 
 .menu__title {
@@ -101,22 +112,25 @@ h2 {
 }
 
 .contacts {
-  display: inline-block;
-  color: #f89513;
+  /* display: inline-block; */
+  color: inherit;
   position: absolute;
   top: 20px;
   right: 0;
-  font-family: 'OpenSans-Bold';
+  text-align: right;
+  font-weight: 700;
 }
 
 .contacts__phone {
   color: white;
   font-size: 21px;
+  text-decoration: none;
 }
 
 .contacts__schedule {
   font-size: 14px;
   text-align: right;
+  color: rgba(248, 149, 19, 0.702);
 }
 
 .banner {
@@ -156,4 +170,24 @@ h2 {
 .news {
   width: 1100px;
   height: 960px;
+}
+
+.pagination__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* .pagination__link {
+  display: inline-block;
+  vertical-align: middle;
+} */
+.pagination__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+.pagination__display, .pagination__controlls {
+  display: inline-block;
+  vertical-align: middle;
+}
+.pagination__item_active .pagination__link {
+  color: red; /* СМОТРИ ВЕБИНАР КАК СДЕЛАТЬ ЦИФРУ 1 ЧЕРНОЙ 2:08:00 */
 }
