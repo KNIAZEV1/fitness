@@ -41,6 +41,7 @@ h2 {
   background: #131415;
   position: relative;
   color: #fff;
+  margin-bottom: 80px;
 }
 
 .container {
@@ -67,15 +68,17 @@ h2 {
   text-transform: uppercase;
   text-decoration: none;
   text-align: left;
+  letter-spacing: 0.2em;
 }
 
 .menu {
   display: inline-block;
   position: absolute;
-  top: 10px;
+  top: 25px;
   left: 360px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .menu__title {
@@ -97,6 +100,7 @@ h2 {
   height: 20px;
   display: inline-block;
   margin-right: 20px;
+
 }
 
 .menu__icon_main {
@@ -115,7 +119,7 @@ h2 {
   /* display: inline-block; */
   color: inherit;
   position: absolute;
-  top: 20px;
+  top: 15px;
   right: 0;
   text-align: right;
   font-weight: 700;
@@ -133,21 +137,25 @@ h2 {
   color: rgba(248, 149, 19, 0.702);
 }
 
+.page {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background: white;
+}
+
+/* .page__container {
+  background: inherit;
+} */
+
 .banner {
   width: 100%;
   height: 625px;
-
 }
 
 .banner__img {
-
-  left: 180px;
-  top: 80px;
-  position: absolute;
-}
-
-.page-content {
-
+  margin: 0 auto;
+  display: block;
 }
 
 .features {
@@ -159,28 +167,53 @@ h2 {
   text-align: center;
   display: inline-block;
 }
-
+.features__name {
+  font-size: 10.78px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .features__item {
   display: inline-block;
+  width: 195px;
+  margin: 20px;
 }
-.features__list {
-  /* display: inline-block; */
+.features__sub-list {
+  text-align: left;
+  display: inherit;
+}
+.features__sub-item {
+  list-style-type: initial;
+}
+.features__icon {
+  background-color: #f89513;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-position: center center no-repeat;
+  margin: 0 auto;
+  display: block;
+}
+.features__icon-pic {
+  margin: 28%;
+}
+.features__text, .features__sub-list {
+  font-size: 18px;
 }
 
-.news {
+/* .news {
   width: 1100px;
   height: 960px;
-}
+} */
 
-.pagination__item {
+/* .pagination__item {
   display: inline-block;
   vertical-align: middle;
-}
+} */
 /* .pagination__link {
   display: inline-block;
   vertical-align: middle;
 } */
-.pagination__list {
+/* .pagination__list {
   display: inline-block;
   vertical-align: middle;
 }
@@ -188,6 +221,13 @@ h2 {
   display: inline-block;
   vertical-align: middle;
 }
-.pagination__item_active .pagination__link {
-  color: red; /* СМОТРИ ВЕБИНАР КАК СДЕЛАТЬ ЦИФРУ 1 ЧЕРНОЙ 2:08:00 */
-}
+.pagination__item_active .pagination__link:hover {
+  color: white;
+  background-color: black; /* СМОТРИ ВЕБИНАР КАК СДЕЛАТЬ ЦИФРУ 1 ЧЕРНОЙ 2:08:00 */
+} */
+
+/* .sidebar {
+  width: 160px;
+  display: inline-block;
+  vertical-align: top;
+} */
