@@ -262,29 +262,175 @@ hr {
 
 /* .pagination 350*45 */
 
-/* .pagination__item {
-  display: inline-block;
+.pagination {
+  position: relative;
+  display: inherit;
+  text-align: center;
   vertical-align: middle;
-} */
-/* .pagination__link {
-  display: inline-block;
-  vertical-align: middle;
-} */
-/* .pagination__list {
-  display: inline-block;
-  vertical-align: middle;
+  margin: 0 auto;
 }
+
+.pagination__display {
+  display: inline-block;
+  color: #656464;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.pagination__controlls {
+  display: inline-block;
+}
+
+.pagination__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.pagination__link {
+  color: #221f1f;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+.pagination__list {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
 .pagination__display, .pagination__controlls {
   display: inline-block;
   vertical-align: middle;
 }
-.pagination__item_active .pagination__link:hover {
-  color: white;
-  background-color: black; /* СМОТРИ ВЕБИНАР КАК СДЕЛАТЬ ЦИФРУ 1 ЧЕРНОЙ 2:08:00 */
-} */
+.pagination__link_active {
+  background-color: #27273e;
+  padding: 4px 8px;
+  border: 1px solid #27273e;
+  border-radius: 3px;
+  color: #fff;
+}
+.pagination__link:hover {
+  color: #f89513;
+}
+.pagination__prev {
+  text-decoration: none;
+  color: #656464;
+  font-family: "Roboto";
+  margin-right: 20px;
+}
+.pagination__next {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #221f1f;
+}
 
-/* .sidebar {
-  width: 160px;
+.sidebar {
+  float: left;
+  text-align: left;
+  margin: 30px 20px;
+  color: #000;
+  line-height: 0;
+}
+.side__desc {
+  font-size: 12px;
+    text-transform: uppercase;
+    color: #656464;
+    text-decoration: none;
+}
+.side__list {
+  list-style-type: none;
+}
+.side__item {
+  margin: 20px 0;
+}
+
+.footer {
+  width: 100%;
+  background: #131415;
+  position: relative;
+  color: #fff;
+}
+
+.footer__container {
+  height: 75px;
+  position: relative;
+}
+
+.ps {
+  width: 240px;
+  height: 50px;
+  font-size: 14px;
+}
+.ps__text {
+  text-align: left;
   display: inline-block;
+  margin-top: 7px;
+}
+.ps__text-ls {
+  color: white;
+  font-weight: 700;
+}
+.ps__text-author {
+  font-weight: 700;
+  color: white;
+}
+
+.footer__logo {
+  color: #f89513;
+  position: absolute;
+  top: 30px;
+  left: 450px;
+  font-family: 'gorafree', Times, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+.smm {
+  display: inline-block;
+  margin: 20px;
   vertical-align: top;
-} */
+}
+.smm__text {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.social__item {
+  content: "";
+  font-size: 14px;
+  width: 10px;
+  height: 10px;
+  padding: 2px 4px;
+  border: 1px solid #d0d0d0;
+  border-radius: 100%;
+  background-color: #d0d0d0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  margin-right: 5px;
+}
+.social__item:hover {
+  background-color: #f89513;
+  border: 1px solid #f89513;
+}
+.social__link_vk {
+  background: url(../img/vk.png)
+}
+.social__link_fb {
+  background: url(../img/facebook.png)
+}
+.social__link_gg {
+  background: url(../img/google.png)
+}
+.social__link_tw {
+  background: url(../img/twitter.png)
+}
+.social__link_ml {
+  background: url(../img/mail.png)
+}
