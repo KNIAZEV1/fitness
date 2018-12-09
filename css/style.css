@@ -216,10 +216,11 @@ h2 {
   display: list-item;
   text-align: left;
   position: absolute;
+  border-radius: 50%;
 }
 
 .news__item {
-  margin-bottom: 65px;
+  margin-bottom: 95px;
 }
 
 .news__content {
@@ -228,6 +229,18 @@ h2 {
 
 .news__title {
   margin-bottom: 80px;
+}
+
+.news__date {
+  font-size: 14px;
+  opacity: 0.5;
+}
+.news__name {
+  font-size: 16px;
+  margin: 0 auto;
+}
+.news__text {
+  margin: 1;
 }
 
 .news__avatar_layer6 {
@@ -240,7 +253,14 @@ h2 {
   background: url(../img/layer9.png);
 }
 
-
+hr {
+ border: none; /* Убираем границу */
+ background-color: grey; /* Цвет линии */
+ color: grey; /* Цвет линии для IE6-7 */
+ opacity: 0.1;
+ height: 2px; /* Толщина линии */
+   margin-bottom: 35px;
+}
 /* .pagination 350*45 */
 
 /* .pagination__item {
