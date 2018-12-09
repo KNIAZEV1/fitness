@@ -58,7 +58,6 @@ h2 {
 }
 
 .logo {
-  /* display: inline-block; */
   color: #f89513;
   position: absolute;
   top: 30px;
@@ -202,10 +201,47 @@ h2 {
   margin: 0 auto;
 }
 
-/* .news {
+.news {
   width: 1100px;
   height: 960px;
-} */
+  position: relative;
+  display: inherit;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.news__avatar {
+  width: 160px;
+  height: 160px;
+  display: list-item;
+  text-align: left;
+  position: absolute;
+}
+
+.news__item {
+  margin-bottom: 65px;
+}
+
+.news__content {
+  margin-left: 180px;
+}
+
+.news__title {
+  margin-bottom: 80px;
+}
+
+.news__avatar_layer6 {
+  background: url(../img/layer6.png);
+}
+.news__avatar_layer7 {
+  background: url(../img/layer7.png);
+}
+.news__avatar_layer9 {
+  background: url(../img/layer9.png);
+}
+
+
+/* .pagination 350*45 */
 
 /* .pagination__item {
   display: inline-block;
