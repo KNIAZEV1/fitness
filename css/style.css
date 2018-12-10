@@ -202,7 +202,7 @@ h2 {
 }
 
 .news {
-  width: 1100px;
+  width: 875px;
   height: 820px;
   position: relative;
   display: inherit;
@@ -211,12 +211,18 @@ h2 {
   float: left;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .news__avatar {
   width: 160px;
   height: 160px;
   display: list-item;
   text-align: left;
-  position: absolute;
+  float: left;
 }
 
 .news__avatar-pic {
