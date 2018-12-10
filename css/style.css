@@ -154,7 +154,7 @@ hr {
 
 .banner {
   width: 100%;
-  height: 625px;
+  margin-bottom: 60px;
 }
 
 .banner__img {
