@@ -32,17 +32,9 @@ h2 {
   text-transform: uppercase;
 }
 
-hr {
-   border: none;
-   background-color: grey;
-   color: grey;
-   opacity: 0.1;
-   height: 2px;
-   margin-bottom: 35px;
-}
-
 .wrapper {
-  width: 100%;
+  /* width: 100%; */
+  min-width: 1100px;
 }
 
 .header {
@@ -97,6 +89,9 @@ hr {
 .menu__item {
   display: inline-block;
   margin-right: 25px;
+}
+.menu__item:last-child {
+  margin: 0;
 }
 
 .menu__link {
@@ -213,6 +208,7 @@ hr {
   display: inherit;
   text-align: left;
   margin: 0 auto;
+  float: left;
 }
 
 .news__avatar {
@@ -221,11 +217,18 @@ hr {
   display: list-item;
   text-align: left;
   position: absolute;
+}
+
+.news__avatar-pic {
   border-radius: 50%;
 }
 
 .news__item {
-  margin-bottom: 95px;
+  margin-bottom: 65px;
+  border-bottom: 2px solid #f5f5f5;
+}
+.news__item:last-child {
+  border: none;
 }
 
 .news__content {
@@ -250,16 +253,6 @@ hr {
   margin: 1;
 }
 
-.news__avatar_layer6 {
-  background: url(../img/layer6.png);
-}
-.news__avatar_layer7 {
-  background: url(../img/layer7.png);
-}
-.news__avatar_layer9 {
-  background: url(../img/layer9.png);
-}
-
 /* .pagination 350*45 */
 
 .pagination {
@@ -268,6 +261,7 @@ hr {
   text-align: center;
   vertical-align: middle;
   margin: 0 auto;
+  clear: both;
 }
 
 .pagination__display {
@@ -405,9 +399,13 @@ hr {
 }
 
 .smm {
+  width: 100%;
   display: inline-block;
   margin: 20px;
   vertical-align: top;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 890px;
 }
 .smm__text {
   font-size: 14px;
@@ -417,8 +415,8 @@ hr {
 .social__item {
   content: "";
   font-size: 14px;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   padding: 2px 4px;
   border: 1px solid #d0d0d0;
   border-radius: 100%;
