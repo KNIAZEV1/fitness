@@ -404,8 +404,8 @@ hr {
 .social__item {
   content: "";
   font-size: 14px;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   padding: 2px 4px;
   border: 1px solid #d0d0d0;
   border-radius: 100%;
