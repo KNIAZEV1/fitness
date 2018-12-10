@@ -207,7 +207,7 @@ h2 {
   position: relative;
   display: inherit;
   text-align: left;
-  margin: 0 auto;
+  margin-left: 20px;
   float: left;
 }
 
@@ -430,7 +430,7 @@ h2 {
   background-color: #f89513;
   border: 1px solid #f89513;
 }
-.social__link_vk {
+.social__link_vk:before {
   background: url(../img/vk.png)
 }
 .social__link_fb {
