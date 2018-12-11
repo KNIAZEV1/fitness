@@ -34,13 +34,13 @@
 }
 
 .menu__icon_main {
-  background: url(../img/pulse-icon.png) center center no-repeat;
+  background: url(../../img/pulse-icon.png) center center no-repeat;
 }
 
 .menu__icon_review {
-  background: url(../img/feed-icon.png) center center no-repeat;
+  background: url(../../img/feed-icon.png) center center no-repeat;
 }
 
 .menu__icon_service {
-  background: url(../img/service-icon.png) center center no-repeat;
+  background: url(../../img/service-icon.png) center center no-repeat;
 }

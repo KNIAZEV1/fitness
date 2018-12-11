@@ -36,17 +36,17 @@
   border: 1px solid #f89513;
 }
 .social__link_vk {
-  background: url(../img/vk.png) center center no-repeat;
+  background: url(../../img/vk.png) center center no-repeat;
 }
 .social__link_fb {
-  background: url(../img/facebook.png) center center no-repeat;
+  background: url(../../img/facebook.png) center center no-repeat;
 }
 .social__link_gg {
-  background: url(../img/google.png) center center no-repeat;
+  background: url(../../img/google.png) center center no-repeat;
 }
 .social__link_tw {
-  background: url(../img/twitter.png) center center no-repeat;
+  background: url(../../img/twitter.png) center center no-repeat;
 }
 .social__link_ml {
-  background: url(../img/mail.png) center center no-repeat;
+  background: url(../../img/mail.png) center center no-repeat;
 }
