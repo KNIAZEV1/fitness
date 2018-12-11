@@ -201,7 +201,7 @@ h2 {
   margin: 0 auto;
 }
 
-.news {
+/* .news {
   width: 875px;
   height: 820px;
   position: relative;
@@ -209,11 +209,14 @@ h2 {
   text-align: left;
   margin-left: 20px;
   float: left;
-}
+} */
 .news__container {
-  display: inline-block;
+  /* display: inline-block; */
   width: 1060px;
   margin: 0 auto;
+}
+.news__list {
+  float: left;
 }
 
 .clearfix:after {
@@ -235,7 +238,8 @@ h2 {
 }
 
 .news__item {
-  margin-bottom: 65px;
+  /* margin-bottom: 65px; */
+  padding-bottom: 75px;
   border-bottom: 2px solid #f5f5f5;
 }
 .news__item:last-child {
@@ -336,7 +340,7 @@ h2 {
 
 .sidebar {
   text-align: left;
-  margin: 190px 20px;
+  /* margin: 190px 20px; */
   color: #000;
   line-height: 0;
   float: left;
