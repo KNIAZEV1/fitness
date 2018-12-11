@@ -241,7 +241,8 @@ h2 {
 }
 
 .news__content {
-  margin-left: 180px;
+  margin-left: 190px;
+  width: 690px
 }
 
 .news__title {
