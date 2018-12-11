@@ -263,10 +263,10 @@ h2 {
 
 .pagination {
   position: relative;
-  display: inherit;
+  display: block;
   text-align: center;
   vertical-align: middle;
-  margin: 0 auto;
+  margin: 70px;
   clear: both;
 }
 
@@ -330,7 +330,7 @@ h2 {
 
 .sidebar {
   text-align: left;
-  margin: 30px 20px;
+  margin: 190px 20px;
   color: #000;
   line-height: 0;
   float: left;
