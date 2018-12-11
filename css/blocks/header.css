@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  background: #131415;
+  position: relative;
+  color: #fff;
+  margin-bottom: 80px;
+}
+
+.header__container {
+  height: 75px;
+  position: relative;
+}

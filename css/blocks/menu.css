@@ -1,0 +1,46 @@
+.menu {
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 360px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu__title {
+  color: white;
+  display: inline-block;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 25px;
+}
+.menu__item:last-child {
+  margin: 0;
+}
+
+.menu__link {
+  display: inline-block;
+}
+
+.menu__icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+.menu__icon_main {
+  background: url(../img/pulse-icon.png) center center no-repeat;
+}
+
+.menu__icon_review {
+  background: url(../img/feed-icon.png) center center no-repeat;
+}
+
+.menu__icon_service {
+  background: url(../img/service-icon.png) center center no-repeat;
+}

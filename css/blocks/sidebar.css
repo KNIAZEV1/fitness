@@ -1,0 +1,31 @@
+.sidebar {
+  text-align: left;
+  /* margin: 190px 20px; */
+  color: #000;
+  line-height: 0;
+  float: left;
+}
+
+.side__list {
+  list-style-type: none;
+}
+
+.side__item {
+  margin: 20px 0;
+}
+
+.side__name {
+  color: #221f1f;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.side__desc {
+  color: #221f1f;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #656464;
+  text-decoration: none;
+  font-weight: 700;
+}

@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  background: #131415;
+  position: relative;
+  color: #fff;
+}
+
+.footer__container {
+  height: 75px;
+  position: relative;
+}
+
+.footer__logo {
+  color: #f89513;
+  position: absolute;
+  top: 30px;
+  left: 450px;
+  font-family: 'gorafree', Times, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
