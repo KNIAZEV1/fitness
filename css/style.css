@@ -219,12 +219,6 @@ h2 {
   float: left;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .news__avatar {
   width: 160px;
   height: 160px;
