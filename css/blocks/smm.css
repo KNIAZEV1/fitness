@@ -1,11 +1,7 @@
 .smm {
-  width: 175px;
-  display: inline-block;
-  margin: 20px;
-  vertical-align: top;
   position: absolute;
-  margin-top: -50px;
-  margin-left: 890px;
+  top: 0;
+  right: 0;
 }
 .smm__text {
   font-size: 14px;
