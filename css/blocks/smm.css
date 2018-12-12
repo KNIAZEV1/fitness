@@ -17,7 +17,7 @@
   font-size: 14px;
   width: 20px;
   height: 20px;
-  padding: 4px 4px;
+  padding: 2px 1px;
   border: 1px solid #d0d0d0;
   border-radius: 100%;
   background-color: #d0d0d0;
@@ -28,8 +28,8 @@
 }
 .social__link {
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
 }
 .social__item:hover {
   background-color: #f89513;
