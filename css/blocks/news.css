@@ -20,7 +20,7 @@
 }
 
 .news__item {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding-bottom: 50px;
   border-bottom: 2px solid #f5f5f5;
 }
@@ -49,4 +49,5 @@
 
 .news__text {
   margin: 1;
+  width: 620px;
 }
