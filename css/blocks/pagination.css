@@ -1,9 +1,9 @@
 .pagination {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 70px;
+  flex-direction: row;
+  margin-bottom: 70px;
   clear: both;
 }
 
@@ -17,6 +17,8 @@
 .pagination__controlls {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .pagination__item {
@@ -36,10 +38,6 @@
   flex-direction: row;
 }
 
-.pagination__display, .pagination__controlls {
-  display: inline-block;
-  vertical-align: middle;
-}
 .pagination__link_active {
   background-color: #27273e;
   padding: 4px 8px;
