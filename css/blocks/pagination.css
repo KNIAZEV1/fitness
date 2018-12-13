@@ -1,14 +1,13 @@
 .pagination {
-  position: relative;
-  display: block;
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin: 70px;
   clear: both;
 }
 
 .pagination__display {
-  display: inline-block;
   color: #656464;
   font-family: "Roboto";
   font-size: 14px;
@@ -16,13 +15,13 @@
 }
 
 .pagination__controlls {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 
 .pagination__item {
-  display: inline-block;
-  vertical-align: middle;
   margin-right: 20px;
+  flex-direction: row;
 }
 .pagination__link {
   color: #221f1f;
@@ -32,9 +31,9 @@
   text-decoration: none;
 }
 .pagination__list {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
   margin-bottom: 5px;
+  flex-direction: row;
 }
 
 .pagination__display, .pagination__controlls {
