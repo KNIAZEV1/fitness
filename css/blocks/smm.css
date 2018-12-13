@@ -1,13 +1,16 @@
 .smm {
-  position: absolute;
-  top: 0;
-  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
+
 .smm__text {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 8px;
 }
+
 .social__item {
   content: "";
   font-size: 14px;
@@ -19,30 +22,39 @@
   background-color: #d0d0d0;
   background-repeat: no-repeat;
   background-position: center center;
-  display: inline-block;
   margin-right: 5px;
+}
+.social__list {
+  display: flex;
+  flex-direction: row;
 }
 .social__link {
   display: block;
   width: 15px;
   height: 15px;
 }
+
 .social__item:hover {
   background-color: #f89513;
   border: 1px solid #f89513;
 }
+
 .social__link_vk {
   background: url(../../img/vk.png) center center no-repeat;
 }
+
 .social__link_fb {
   background: url(../../img/facebook.png) center center no-repeat;
 }
+
 .social__link_gg {
   background: url(../../img/google.png) center center no-repeat;
 }
+
 .social__link_tw {
   background: url(../../img/twitter.png) center center no-repeat;
 }
+
 .social__link_ml {
   background: url(../../img/mail.png) center center no-repeat;
 }

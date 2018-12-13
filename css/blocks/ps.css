@@ -4,9 +4,7 @@
   font-size: 14px;
 }
 .ps__text {
-  text-align: left;
-  display: inline-block;
-  margin-top: 7px;
+  margin-top: 0;
 }
 .ps__text-ls {
   color: white;
