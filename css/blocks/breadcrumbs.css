@@ -1,7 +1,5 @@
 .breadcrumbs__container {
-  padding-top: 39px;
-  padding-bottom: 9px;
-  padding-left: 95px;
+  margin-top: 50px;
 }
 .breadcrumbs__list {
   display: flex;
