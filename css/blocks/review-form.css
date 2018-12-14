@@ -1,0 +1,15 @@
+.review-form__container {
+  width: 700px;
+  height: 430px;
+  background-color: #f5f5f5;
+  margin: 60px auto;
+  color: #221f1f;
+  font-size: 14px;
+  font-weight: 300;
+}
+.review-form__content {
+  width: 565px;
+  height: 330px;
+  padding-top: 34px;
+  padding-left: 70px;
+}
