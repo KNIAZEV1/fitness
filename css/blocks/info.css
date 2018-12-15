@@ -1,6 +1,6 @@
 .info {
   width: 100%;
-  height: 175px;
+  min-height: 175px;
   color: white;
   background: url(../../img/rev-back.png);
   background-size: 100%;
@@ -14,6 +14,10 @@
   width: 630px;
   letter-spacing: normal;
   line-height: 1.667;
+}
+
+.info__text {
+  width: 100%;
 }
 
 .info__text-phrase {

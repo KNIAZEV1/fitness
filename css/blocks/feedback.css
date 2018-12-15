@@ -1,16 +1,13 @@
 .feedback__container {
   width: 870px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 .feedback__list {
   float: left;
 }
 
 .feedback__avatar {
-  width: 160px;
-  height: 160px;
+  width: 19%;
+  min-height: 160px;
   text-align: left;
   float: left;
 }
@@ -30,7 +27,7 @@
 
 .feedback__content {
   margin-left: 190px;
-  width: 690px
+  width: 79%;
 }
 
 .feedback__title {
@@ -48,6 +45,5 @@
 }
 
 .feedback__text {
-  margin: 1;
-  width: 690px;
+  width: 100%;
 }
