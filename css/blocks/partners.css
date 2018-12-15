@@ -1,5 +1,29 @@
-
+.partners {
+  width: 880px;
+}
 
 .partners__list {
+  display: flex;
+  flex-wrap: wrap;
   filter: grayscale(100%);
+}
+
+.partners__item {
+  flex: 1 0 270px;
+  margin-bottom: 50px;
+}
+
+.partners__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners__logo-pic {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.partners__title {
+  display: flex;
 }

@@ -1,36 +1,38 @@
 .menu {
-  display: inline-block;
-  position: absolute;
-  top: 25px;
-  left: 360px;
+  display: flex;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
 
+.menu__list {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__item {
+  padding-right: 30px;
+}
 .menu__title {
   color: white;
   display: inline-block;
 }
 
-.menu__item {
-  display: inline-block;
-  margin-right: 25px;
-}
+
 .menu__item:last-child {
   margin: 0;
 }
 
-.menu__link {
-  display: inline-block;
+.menu__link_active {
+  display: flex;
+  text-decoration: none;
 }
 
 .menu__icon {
   width: 20px;
   height: 20px;
-  display: inline-block;
   margin-right: 20px;
-
 }
 
 .menu__icon_main {

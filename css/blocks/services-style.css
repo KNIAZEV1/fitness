@@ -1,12 +1,25 @@
 .services {
   width: 880px;
-  display: flex;
-
 }
 
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .services__item {
-  width: 252px;
   font-size: 14px;
-  line-height: 1.167;
+  flex: 1 0 270px;
+}
+
+.services__text {
+  width: 255px;
+  line-height: 1.5em;
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.services__title {
+  display: flex;
 }
