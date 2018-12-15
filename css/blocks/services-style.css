@@ -1,11 +1,7 @@
-.services__container {
+.services {
   width: 880px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: stretch;
-  align-content: stretch;
+
 }
 
 
