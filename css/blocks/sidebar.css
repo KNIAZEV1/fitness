@@ -1,8 +1,13 @@
 .sidebar {
-  text-align: left;
   color: #000;
   line-height: 0;
-  float: left;
+}
+
+.side {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .side__list {

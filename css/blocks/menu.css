@@ -16,9 +16,7 @@
 }
 .menu__title {
   color: white;
-  display: inline-block;
 }
-
 
 .menu__item:last-child {
   margin: 0;
