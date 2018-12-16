@@ -22,9 +22,13 @@
   margin: 0;
 }
 
-.menu__link_active {
+.menu__link {
   display: flex;
   text-decoration: none;
+}
+
+.menu__item_active .menu__link:hover {
+  color: #f89513
 }
 
 .menu__icon {
