@@ -5,7 +5,7 @@
 .partners__list {
   display: flex;
   flex-wrap: wrap;
-  filter: grayscale(100%);
+
 }
 
 .partners__item {
@@ -17,6 +17,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+  transition: 0.5s;
 }
 
 .partners__logo-pic {

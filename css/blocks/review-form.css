@@ -32,7 +32,8 @@
 .review-form__title {
   font-size: 49px;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin: 0;
+  margin-right: 55px;
 }
 .review-form__top {
   display: flex;

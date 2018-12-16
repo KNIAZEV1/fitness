@@ -10,6 +10,7 @@
 .services__item {
   font-size: 14px;
   flex: 1 0 270px;
+  padding-bottom: 40px;
 }
 
 .services__text {
@@ -22,4 +23,9 @@
 
 .services__title {
   display: flex;
+}
+
+.services__name {
+  margin: 0;
+  margin-top: 20px;
 }
