@@ -27,8 +27,16 @@
   text-decoration: none;
 }
 
-.menu__item_active .menu__link:hover {
-  color: #f89513
+.menu__link:hover {
+  color: #f89513;
+}
+
+.menu__icon {
+  fill: #f89513;
+}
+
+.menu__item_active .menu__link .menu__title {
+  color: #f89513;
 }
 
 .menu__icon {
