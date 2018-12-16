@@ -23,19 +23,19 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="./index.html" class="menu__link">
+                <a href="./index.html" class="menu__link_active">
                   <div class="menu__icon menu__icon_main"></div>
                   <div class="menu__title">Главная</div>
                 </a>
               </li>
               <li class="menu__item">
-                <a href="./reviews.html" class="menu__link">
+                <a href="./reviews.html" class="menu__link_active">
                   <div class="menu__icon menu__icon_review"></div>
                   <div class="menu__title">Отзывы</div>
                 </a>
               </li>
               <li class="menu__item">
-                <a href="./services.html" class="menu__link">
+                <a href="./services.html" class="menu__link_active">
                   <div class="menu__icon menu__icon_service"></div>
                   <div class="menu__title">Услуги</div>
                 </a>
@@ -178,7 +178,7 @@
               Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров,
               психологов.Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр
               для проведения массовых мероприятий.
-              <a href="#" class="info__text-phrase">Ждем ваших заявок!<a>
+              <a href="#" class="info__text-phrase">Ждем ваших заявок!</a>
             </p>
           </div>
         </aside>
@@ -186,8 +186,45 @@
         <section class="review-form">
           <div class="container review-form__container">
             <div class="review-form__content">
-            <h4 class="review-form__title">Оставить отзыв</h4>
-            <!-- form adding here -->
+              <h4 class="review-form__title">Оставить отзыв</h4>
+              <form action="" method="" enctype="" autocomplete class="review-form__form">
+                <div class="review-form__top">
+                  <div class="review-form__top-name">
+                    <label for="name">
+                      <div class="review-form__name">Ваше имя</div>
+                    </label>
+                    <input type="text" id="name" placeholder="Андрей" class="review-form__name-value">
+                  </div>
+                  <div class="review-form__top-vk">
+                    <label for="vk">
+                      <div class="review-form__vk">Ссылка на профиль VK</div>
+                    </label>
+                    <input type="url" id="vk" placeholder="vk.com/example" class="review-form__vk-value">
+                  </div>
+                </div>
+                <div class="review-form__middle">
+                  <label for="review">
+                    <div class="review-form__textarea">Текст отзыва</div>
+                  </label>
+                  <textarea name="review-text" id="review" class="review-form__textarea-text" placeholder="Мне понравилось"></textarea>
+                </div>
+                <div class="review-form__end">
+                  <div class="review-form__radio">
+                    <div class="review-form__radio-question">Отображать фото в отзыве?</div>
+                    <label for="yes">
+                      <input type="radio" id="yes" name="photo" class="review-form__radio-answer" checked>
+                      <span class="label">Да</span>
+                    </label>
+                    <label for="no">
+                      <input type="radio" id="no" name="photo" class="review-form__radio-answer">
+                      <span class="label">Нет</span>
+                    </label>
+                  </div>
+                  <div class="review-form__button">
+                    <button type="submit" class="review-form__button-submit">Отправить</button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </section>
