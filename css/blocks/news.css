@@ -1,9 +1,7 @@
 .news__container {
   width: 1060px;
   margin: 0 auto;
-}
-.news__list {
-
+  display: flex;
 }
 
 .news__avatar {

@@ -1,6 +1,7 @@
 .sidebar {
   color: #000;
   line-height: 0;
+  margin-left: 50px;
 }
 
 .side {
@@ -32,4 +33,10 @@
   color: #656464;
   text-decoration: none;
   font-weight: 700;
+}
+
+.side__pic-img {
+  width: 160px;
+  min-height: 120px;
+  filter: opacity(80%);
 }
