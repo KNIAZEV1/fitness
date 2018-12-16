@@ -44,6 +44,15 @@ h2 {
   font-size: 49px;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 2.8px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 18px;
 }
 
 * {
