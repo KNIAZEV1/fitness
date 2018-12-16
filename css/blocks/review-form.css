@@ -27,13 +27,13 @@
 .review-form__form {
   display: flex;
   flex-direction: column;
-  width: 83%;
+  width: 99%;
 }
 .review-form__title {
   font-size: 49px;
   font-weight: bold;
   margin: 0;
-  margin-right: 55px;
+  margin-right: 144px;
 }
 .review-form__top {
   display: flex;

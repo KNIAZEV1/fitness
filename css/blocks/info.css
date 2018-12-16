@@ -17,7 +17,9 @@
 }
 
 .info__text {
-  width: 100%;
+  width: 101%;
+  margin-left: -16px;
+  margin-top: 23px;
 }
 
 .info__text-phrase {

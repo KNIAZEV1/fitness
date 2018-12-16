@@ -1,5 +1,5 @@
 .breadcrumbs__container {
-  margin-top: 50px;
+  margin-top: 41px;
 }
 .breadcrumbs__list {
   display: flex;
@@ -7,7 +7,7 @@
 
 .breadcrumbs__link {
   color: #f89513;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   font-style: italic;
   line-height: 1.3;

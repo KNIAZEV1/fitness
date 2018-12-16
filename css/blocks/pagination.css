@@ -3,8 +3,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin-bottom: 70px;
+  margin-bottom: 39px;
   clear: both;
+  padding: 10px;
+  padding-left: 50px;
 }
 
 .pagination__display {
