@@ -10,21 +10,29 @@
 }
 
 .features__name {
-  font-size: 10.78px;
+  font-size: 11.11px;
   text-transform: uppercase;
   font-weight: 700;
+  letter-spacing: 2.5px;
 }
 
 .features__list {
+  width: 58%;
+  min-height: 300px;
+  padding-bottom: 90px;
   display: flex;
+  flex-flow: row nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .features__item {
-  text-align: center;
-  width: 17%; /*было 195px*/
-  margin: 20px;
+  display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  line-height: 25px;
 }
 
 .features__sub-list {
@@ -32,6 +40,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
+  line-height: 0px;
 }
 
 .features__sub-item {
@@ -40,15 +49,26 @@
 
 .features__icon {
   background-color: #f89513;
-  width: 35%;
+  width: 25%;
   min-height: 70px;
-  border-radius: 50%;
+  border-radius: 100%;
   background-position: center center no-repeat;
   margin: 0 auto;
 }
 
 .features__icon-pic {
   margin: 28%;
+}
+
+.features__text {
+  text-align: center;
+  width: 69%;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.features__title {
+  margin: 35px;
 }
 
 .features__text, .features__sub-list {

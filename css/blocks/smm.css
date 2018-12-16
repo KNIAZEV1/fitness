@@ -39,6 +39,7 @@
 .social__item:hover {
   background-color: #f89513;
   border: 1px solid #f89513;
+  transition: 0.5s;
 }
 
 .social__link_vk {
