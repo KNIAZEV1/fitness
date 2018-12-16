@@ -13,14 +13,3 @@
   justify-content: space-between;
   align-items: center;
 }
-
-.footer__logo {
-  color: #f89513;
-  top: 30px;
-  left: 450px;
-  font-family: 'gorafree', Times, serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.2em;
-}
