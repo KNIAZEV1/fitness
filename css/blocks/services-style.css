@@ -23,9 +23,14 @@
 
 .services__title {
   display: flex;
+  margin: 0px;
+  margin-top: 6px;
+  padding-bottom: 34px;
 }
 
 .services__name {
   margin: 0;
   margin-top: 20px;
+  font-size: 18px;
+  padding-bottom: 2px;
 }

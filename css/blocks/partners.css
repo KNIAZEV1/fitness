@@ -11,6 +11,7 @@
 .partners__item {
   flex: 1 0 270px;
   margin-bottom: 50px;
+  padding: 8px;
 }
 
 .partners__link {
@@ -32,4 +33,7 @@
 
 .partners__title {
   display: flex;
+  margin: 0;
+  margin-bottom: 72px;
+  margin-top: -20px;
 }
