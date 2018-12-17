@@ -48,15 +48,17 @@
 
 .features__icon {
   background-color: #f89513;
-  width: 25%;
-  min-height: 70px;
+  width: 22%;
+  min-height: 72px;
   border-radius: 100%;
   background-position: center center no-repeat;
   margin: 0 auto;
 }
 
 .features__icon-pic {
-  margin: 28%;
+  position: absolute;
+  margin-left: 23px;
+  margin-top: 16px;
 }
 
 .features__text {
