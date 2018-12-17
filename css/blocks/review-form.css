@@ -46,9 +46,7 @@
 .review-form__top-vk {
   width: 49%;
 }
-.review-form__name,
-.review-form__vk,
-.review-form__textarea {
+.review-form__desc {
   margin-bottom: 10px;
 }
 
@@ -67,9 +65,7 @@
   min-height: 90px;
   margin-bottom: 10px;
 }
-.review-form__name-value:focus,
-.review-form__vk-value:focus,
-.review-form__textarea-text:focus {
+.review-form__desc:focus {
   border-color: #f89513;
 }
 

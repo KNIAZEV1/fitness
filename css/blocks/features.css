@@ -20,12 +20,11 @@
   text-align: center;
   justify-content: center;
   width: 100%;
-  padding-top: 67px;
+  padding-top: 68px;
 }
 
 .features__item {
-  background: top center no-repeat;
-  width: 19%;
+  width: 20%;
   margin: auto 35px;
 }
 
@@ -34,7 +33,11 @@
   font-size: 20px;
   width: 20px;
   height: 20px;
-  padding: 20px 36px;
+  position: absolute;
+  margin-left: -37px;
+  margin-top: -42px;
+  padding: 0;
+  padding: 25px 25px;
   border: 1px solid #f89513;
   border-radius: 100%;
   background-color: #f89513;
