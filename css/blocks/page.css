@@ -2,7 +2,8 @@
   width: 100%;
   display: flex;
   flex-flow: column wrap;
-  background: white;
+  align-items: center;
+  justify-content: center;
 }
 
 .page__container {
@@ -10,4 +11,5 @@
   flex-flow: column wrap;
   align-items: center;
   justify-content: space-between;
+  width: 1060px;
 }

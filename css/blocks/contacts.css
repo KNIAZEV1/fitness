@@ -17,4 +17,5 @@
 .contacts__schedule {
   font-size: 14px;
   color: rgba(248, 149, 19, 0.702);
+  text-decoration: underline;
 }

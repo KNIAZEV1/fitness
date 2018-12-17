@@ -1,5 +1,6 @@
 .services {
   width: 880px;
+  margin-top: 41px;
 }
 
 .services__list {
@@ -10,7 +11,7 @@
 .services__item {
   font-size: 14px;
   flex: 1 0 270px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .services__text {
@@ -25,7 +26,7 @@
   display: flex;
   margin: 0px;
   margin-top: 6px;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
 }
 
 .services__name {

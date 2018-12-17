@@ -1,3 +1,7 @@
+.feedback {
+  margin-top: 41px;
+}
+
 .feedback__container {
   width: 870px;
 }
@@ -34,7 +38,7 @@
   text-align: left;
   margin: 8px;
   margin-left: 0;
-  padding-bottom: 26px;
+  margin-bottom: 30px;
 }
 
 .feedback__date {

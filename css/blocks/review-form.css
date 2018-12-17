@@ -84,10 +84,11 @@
 .review-form__radio-question {
   margin-bottom: 10px;
 }
-.review-form__button {
-  align-self: flex-end;
+.review-form__radio-answer {
+  cursor: pointer;
 }
 .review-form__button {
+  align-self: flex-end;
   width: 22%;
 }
 .review-form__button-submit {
@@ -99,10 +100,16 @@ color: #fff;
 text-transform: uppercase;
 font-size: 12px;
 font-weight: bold;
+cursor: pointer;
 }
 .review-form__button-submit:hover {
   background-color: #f89513;
 }
+
+.label {
+  cursor: pointer;
+}
+
 .label:focus {
  background-color: #f89513;
 }

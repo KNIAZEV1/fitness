@@ -3,9 +3,10 @@
   min-height: 570px;
   color: white;
   background: #131415;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -17,21 +18,19 @@
 }
 
 .features__list {
-  width: 58%;
-  min-height: 300px;
   padding-bottom: 90px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .features__item {
   display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
   line-height: 25px;
 }
 

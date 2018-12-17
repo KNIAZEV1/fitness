@@ -39,7 +39,7 @@
 
 .news__date {
   font-size: 14px;
-  opacity: 0.5;
+  color: #656464;
   padding-bottom: 5px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .news__text {
-  width: 100%;
+  width: 89%;
   margin-top: 0;
   line-height: 1.59em;
 }
