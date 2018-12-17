@@ -14,8 +14,66 @@
   text-decoration: none;
 }
 
-.contacts__schedule {
+.contacts__btn {
+  display: block;
+  color: rgba(248, 149, 19, .7);
+  font-family: "Open Sans";
+  font-weight: bold;
   font-size: 14px;
-  color: rgba(248, 149, 19, 0.702);
+  text-align: right;
+}
+.contacts__btn:hover {
+  color: rgba(250, 250, 250, 0.7);
   text-decoration: underline;
+}
+
+.contacts__wrapper {
+  position: absolute;
+  overflow: hidden;
+  height: 0;
+  width: 160px;
+  transition: height 0.5s;
+  margin-top: 65px;
+}
+
+.contacts__block {
+  margin-top: 15px;
+  background-color: #fff;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-size: 13px;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+
+.contacts__block:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -15px;
+  right: 0;
+  border-color: transparent transparent #fff transparent;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+}
+
+.contacts:hover .contacts__wrapper {
+  height: 81px;
+}
+
+.contacts__block-days {
+  color: #f89513;
+  font-weight: bold;
+}
+
+.contacts__block-lunch {
+  color: #000;
+  font-weight: normal;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
