@@ -1,6 +1,7 @@
 .review-form {
   display: flex;
   justify-content: center;
+  margin-bottom: 4px;
 }
 
 .review-form__container {

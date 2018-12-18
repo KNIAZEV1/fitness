@@ -6,6 +6,7 @@
 .services__list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -12px;
 }
 
 .services__item {

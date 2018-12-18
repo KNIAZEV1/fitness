@@ -1,5 +1,6 @@
 .partners {
   width: 880px;
+  margin-bottom: 4px;
 }
 
 .partners__list {
@@ -34,6 +35,5 @@
 .partners__title {
   display: flex;
   margin: 0;
-  margin-bottom: 72px;
-  margin-top: -20px;
+  margin-bottom: 63px;
 }
