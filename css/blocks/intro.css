@@ -18,21 +18,26 @@
   margin-bottom: 40px;
   width: 15%;
   min-height: 20%;
-
 }
 
 .intro__button {
   width: 16%;
-  height: 7%;
+  min-height: 50px;
+}
+
+.intro__button-submit:hover {
+  background-color: #f89513;
+}
+
+.intro__button-submit {
+  width: 100%;
+  min-height: 60px;
   background-color: #1c1f1d;
   border-radius: 3px;
   color: #fff;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 17px;
   font-weight: bold;
+  letter-spacing: 1px;
   cursor: pointer;
-}
-
-.intro__button:hover {
-  background-color: #f89513;
 }
