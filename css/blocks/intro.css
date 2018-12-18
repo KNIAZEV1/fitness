@@ -18,15 +18,19 @@
   margin-bottom: 40px;
   width: 15%;
   min-height: 20%;
-  animation: bounceIn 1.5s;
-  animation-delay: .5s;
+  opacity: 0;
+  transition-property: opacity;
+  animation: bounceIn 1.5s .5s;
+  animation-fill-mode: forwards;
 }
 
 .intro__button {
   width: 16%;
   min-height: 50px;
-  animation: bounceIn 1.5s;
-  animation-delay: .5s;
+  opacity: 0;
+  transition-property: opacity;
+  animation: bounceIn 1.5s .5s;
+  animation-fill-mode: forwards;
 }
 
 .intro__button-submit:hover {
