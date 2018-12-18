@@ -26,13 +26,13 @@
 }
 
 .intro__button-submit:hover {
-  background-color: #f89513;
+  background-color: #1c1f1d;
 }
 
 .intro__button-submit {
   width: 100%;
   min-height: 60px;
-  background-color: #1c1f1d;
+  background-color: #f89513;
   border-radius: 3px;
   color: #fff;
   text-transform: uppercase;
