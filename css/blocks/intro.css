@@ -1,3 +1,38 @@
-.mainpage {
+.intro {
   background: url(../../img/mainpage.png) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.intro__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro__logo {
+  margin-bottom: 40px;
+  width: 15%;
+  min-height: 20%;
+
+}
+
+.intro__button {
+  width: 16%;
+  height: 7%;
+  background-color: #1c1f1d;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.intro__button:hover {
+  background-color: #f89513;
 }
