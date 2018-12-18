@@ -1,7 +1,6 @@
 .features {
   background-color: #131415;
   color: #fff;
-  margin-top: 52px;
   width: 100%;
 }
 
@@ -13,6 +12,7 @@
 .features__title{
   color: #fff;
   text-align: center;
+  margin: 0;
 }
 
 .features__list {
@@ -21,12 +21,13 @@
   text-align: center;
   justify-content: center;
   width: 100%;
-  padding-top: 68px;
+  margin-bottom: -15px;
 }
 
 .features__item {
   width: 20%;
-  margin: auto 35px;
+  margin: auto 29px;
+  margin-top: 88px;
 }
 
 .features__item::before {
