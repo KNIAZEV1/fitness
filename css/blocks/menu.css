@@ -31,13 +31,14 @@
 
 .menu__title:hover {
   color: #f89513;
+  transition: 0.5s;
 }
 
 .menu__icon {
   fill: #f89513;
 }
 
-.menu__item_active .menu__link .menu__title {
+.menu__item_active .menu__title {
   color: #f89513;
 }
 
@@ -45,6 +46,21 @@
   width: 20px;
   min-height: 20px;
   margin-right: 20px;
+}
+
+.menu__icon_main:hover {
+  background: url(../../img/pulse-icon-colored.png) center center no-repeat;
+  transition: 0.5s;
+}
+
+.menu__icon_review:hover {
+  background: url(../../img/feed-icon-colored.png) center center no-repeat;
+  transition: 0.5s;
+}
+
+.menu__icon_service:hover {
+  background: url(../../img/service-icon-colored.png) center center no-repeat;
+  transition: 0.5s;
 }
 
 .menu__icon_main {
