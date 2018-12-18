@@ -34,10 +34,6 @@
   transition: 0.5s;
 }
 
-.menu__icon {
-  fill: #f89513;
-}
-
 .menu__item_active .menu__title {
   color: #f89513;
 }
@@ -46,31 +42,44 @@
   width: 20px;
   min-height: 20px;
   margin-right: 20px;
+  position: relative;
 }
 
-.menu__icon_main:hover {
-  background: url(../../img/pulse-icon-colored.png) center center no-repeat;
-  transition: 0.5s;
+.menu__icon_main:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 19px;
+  height: 14px;
+  background: url('../../img/sprite.png') -5px -33px;
 }
 
-.menu__icon_review:hover {
-  background: url(../../img/feed-icon-colored.png) center center no-repeat;
-  transition: 0.5s;
+.menu__icon_main:hover:after {
+  background-position: -34px -33px;
 }
 
-.menu__icon_service:hover {
-  background: url(../../img/service-icon-colored.png) center center no-repeat;
-  transition: 0.5s;
+.menu__icon_review:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  background: url('../../img/sprite.png') -5px -5px;
 }
 
-.menu__icon_main {
-  background: url(../../img/pulse-icon.png) center center no-repeat;
+.menu__icon_review:hover:after {
+  background-position: -35px -5px;
 }
 
-.menu__icon_review {
-  background: url(../../img/feed-icon.png) center center no-repeat;
+.menu__icon_service:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 19px;
+  height: 14px;
+  background: url('../../img/sprite.png') -65px -5px;
 }
 
-.menu__icon_service {
-  background: url(../../img/service-icon.png) center center no-repeat;
+.menu__icon_service:hover:after {
+  background-position: -65px -29px;
 }
