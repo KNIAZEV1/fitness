@@ -2,11 +2,13 @@
   background-color: #131415;
   color: #fff;
   width: 100%;
+  position: relative;
 }
 
 .features__container {
   padding-top: 48px;
   padding-bottom: 94px;
+  width: 1060px;
 
 }
 .features__title{
