@@ -25,6 +25,7 @@
 }
 .contacts__btn:hover {
   color: rgba(250, 250, 250, 0.7);
+  transition: 0.5s;
 }
 
 .contacts__wrapper {

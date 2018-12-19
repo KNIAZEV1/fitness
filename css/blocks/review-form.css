@@ -61,6 +61,14 @@
   padding: 15px 9px;
   outline: none;
 }
+
+.review-form__name-value:focus,
+.review-form__vk-value:focus,
+.review-form__textarea-text:focus {
+  border-color: #f89513;
+  transition: 0.5s;
+}
+
 .review-form__textarea-text {
   width: 100%;
   min-height: 90px;
@@ -84,6 +92,11 @@
 .review-form__radio-answer {
   cursor: pointer;
 }
+
+.review-form__radio-answer:hover {
+  background-color: #f89513;
+}
+
 .review-form__button {
   align-self: flex-end;
   width: 22%;
@@ -101,6 +114,7 @@ cursor: pointer;
 }
 .review-form__button-submit:hover {
   background-color: #f89513;
+  transition: 0.5s;
 }
 
 .label {

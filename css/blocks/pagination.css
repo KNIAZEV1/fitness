@@ -47,6 +47,7 @@
 }
 .pagination__link:hover {
   color: #f89513;
+  transition: 0.5s;
 }
 .pagination__prev {
   text-decoration: none;
