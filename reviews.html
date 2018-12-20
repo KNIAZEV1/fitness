@@ -24,6 +24,27 @@
 
         <a href="./main.html" class="logo">Афродита</a>
 
+        <div class="contacts">
+          <a href="tel:+7(800)0039210" class="contacts__phone">8 (800) 00-392-10</a>
+          <button class="contacts__btn">График работы</button>
+          <div class="contacts__wrapper">
+            <div class="contacts__block">
+              <div class="contacts__block-days">пн-вс: 09:00-20:00</div>
+              <div class="contacts__block-lunch">обед: 14:00-14:30</div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      </header>
+
+      <div class="page">
+        <div class="container page__container">
+
+        <aside class="sideblock">
+          <div class="container sideblock__container">
+
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
@@ -32,7 +53,7 @@
                   <div class="menu__title">Главная</div>
                 </a>
               </li>
-              <li class="menu__item menu__item_active">
+              <li class="menu__item  menu__item_active">
                 <a href="./reviews.html" class="menu__link">
                   <div class="menu__icon menu__icon_review"></div>
                   <div class="menu__title">Отзывы</div>
@@ -47,22 +68,43 @@
             </ul>
           </nav>
 
-          <div class="contacts">
-            <a href="tel:+7(800)0039210" class="contacts__phone">8 (800) 00-392-10</a>
-            <button class="contacts__btn">График работы</button>
-            <div class="contacts__wrapper">
-              <div class="contacts__block">
-                <div class="contacts__block-days">пн-вс: 09:00-20:00</div>
-                <div class="contacts__block-lunch">обед: 14:00-14:30</div>
-              </div>
+          <aside class="info">
+            <div class="info__content">
+              <p class="info__text">
+                Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров,
+                психологов.Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр
+                для проведения массовых мероприятий.
+                <a href="#" class="info__text-phrase">Ждем ваших заявок!</a>
+              </p>
             </div>
+          </aside>
+
+          <div class="smm">
+            <p class="smm__text">Наши социальные сети</p>
+            <div class="social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="#" alt="Вконтакте" class="social__link social__link_vk"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" alt="Фейсбук" class="social__link social__link_fb"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" alt="Гугл" class="social__link social__link_gg"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" alt="Твиттер" class="social__link social__link_tw"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" alt="Почта" class="social__link social__link_ml"></a>
+                </li>
+              </ul>
+            </div>
+
           </div>
+        </aside>
 
-      </div>
-      </header>
-
-      <div class="page">
-        <div class="container page__container">
+        <div class="main">
 
           <section class="feedback">
             <div class="container feedback__container">
@@ -177,65 +219,56 @@
                 <a href="#" class="pagination__next">></a>
             </div>
           </div>
+
+          <section class="review-form">
+            <div class="container review-form__container">
+              <div class="review-form__content">
+                <h4 class="review-form__title">Оставить отзыв</h4>
+                <form action="" method="" enctype="" autocomplete class="review-form__form">
+                  <div class="review-form__top">
+                    <div class="review-form__top-name">
+                      <label for="name">
+                        <div class="review-form__desc">Ваше имя</div>
+                      </label>
+                      <input type="text" id="name" placeholder="Андрей" class="review-form__name-value">
+                    </div>
+                    <div class="review-form__top-vk">
+                      <label for="vk">
+                        <div class="review-form__desc">Ссылка на профиль VK</div>
+                      </label>
+                      <input type="url" id="vk" placeholder="vk.com/example" class="review-form__vk-value">
+                    </div>
+                  </div>
+                  <div class="review-form__middle">
+                    <label for="review">
+                      <div class="review-form__desc">Текст отзыва</div>
+                    </label>
+                    <textarea name="review-text" id="review" class="review-form__textarea-text" placeholder="Мне понравилось"></textarea>
+                  </div>
+                  <div class="review-form__end">
+                    <div class="review-form__radio">
+                      <div class="review-form__desc">Отображать фото в отзыве?</div>
+                      <label for="yes">
+                        <input type="radio" id="yes" name="photo" class="review-form__radio-answer" checked>
+                        <span class="label">Да</span>
+                      </label>
+                      <label for="no">
+                        <input type="radio" id="no" name="photo" class="review-form__radio-answer">
+                        <span class="label">Нет</span>
+                      </label>
+                    </div>
+                    <div class="review-form__button">
+                      <button type="submit" class="review-form__button-submit">Отправить</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+
         </div>
         <!-- page-container end -->
 
-        <aside class="info">
-          <div class="info__content">
-            <p class="info__text">
-              Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров,
-              психологов.Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр
-              для проведения массовых мероприятий.
-              <a href="#" class="info__text-phrase">Ждем ваших заявок!</a>
-            </p>
-          </div>
-        </aside>
-
-        <section class="review-form">
-          <div class="container review-form__container">
-            <div class="review-form__content">
-              <h4 class="review-form__title">Оставить отзыв</h4>
-              <form action="" method="" enctype="" autocomplete class="review-form__form">
-                <div class="review-form__top">
-                  <div class="review-form__top-name">
-                    <label for="name">
-                      <div class="review-form__desc">Ваше имя</div>
-                    </label>
-                    <input type="text" id="name" placeholder="Андрей" class="review-form__name-value">
-                  </div>
-                  <div class="review-form__top-vk">
-                    <label for="vk">
-                      <div class="review-form__desc">Ссылка на профиль VK</div>
-                    </label>
-                    <input type="url" id="vk" placeholder="vk.com/example" class="review-form__vk-value">
-                  </div>
-                </div>
-                <div class="review-form__middle">
-                  <label for="review">
-                    <div class="review-form__desc">Текст отзыва</div>
-                  </label>
-                  <textarea name="review-text" id="review" class="review-form__textarea-text" placeholder="Мне понравилось"></textarea>
-                </div>
-                <div class="review-form__end">
-                  <div class="review-form__radio">
-                    <div class="review-form__desc">Отображать фото в отзыве?</div>
-                    <label for="yes">
-                      <input type="radio" id="yes" name="photo" class="review-form__radio-answer" checked>
-                      <span class="label">Да</span>
-                    </label>
-                    <label for="no">
-                      <input type="radio" id="no" name="photo" class="review-form__radio-answer">
-                      <span class="label">Нет</span>
-                    </label>
-                  </div>
-                  <div class="review-form__button">
-                    <button type="submit" class="review-form__button-submit">Отправить</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </section>
 
       </div>
       <!-- page END -->
@@ -248,27 +281,6 @@
 
         <a href="./main.html" class="logo">Афродита</a>
 
-        <div class="smm">
-          <p class="smm__text">Наши социальные сети</p>
-          <div class="social">
-            <ul class="social__list">
-              <li class="social__item">
-                <a href="#" alt="Вконтакте" class="social__link social__link_vk"></a>
-              </li>
-              <li class="social__item">
-                <a href="#" alt="Фейсбук" class="social__link social__link_fb"></a>
-              </li>
-              <li class="social__item">
-                <a href="#" alt="Гугл" class="social__link social__link_gg"></a>
-              </li>
-              <li class="social__item">
-                <a href="#" alt="Твиттер" class="social__link social__link_tw"></a>
-              </li>
-              <li class="social__item">
-                <a href="#" alt="Почта" class="social__link social__link_ml"></a>
-              </li>
-            </ul>
-          </div>
         </div>
        </div>
       </footer>
