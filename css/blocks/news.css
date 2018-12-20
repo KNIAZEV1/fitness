@@ -1,5 +1,9 @@
+.news {
+  width: 810px;
+}
+
 .news__container {
-  width: 1060px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   margin-bottom: 22px;

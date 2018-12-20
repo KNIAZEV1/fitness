@@ -1,6 +1,15 @@
 .sideblock {
-  width: 24%;
+  width: 275px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.sideblock__container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }

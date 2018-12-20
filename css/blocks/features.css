@@ -1,6 +1,7 @@
 .features {
   color: #221f1f;
   width: 100%;
+  min-height: 285px;
   border: 1px solid #221f1f;
   padding: 20px 5px;
   position: relative;
@@ -22,7 +23,7 @@
 }
 
 .features__item {
-  width: 20%;
+  width: 100%;
   margin: auto 29px;
 }
 
@@ -31,8 +32,6 @@
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
-  padding-top: 60px;
-  padding-bottom: 24px;
 }
 
 .features__text-desc {

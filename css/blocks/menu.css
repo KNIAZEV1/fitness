@@ -1,4 +1,5 @@
 .menu {
+  width: 100%;
   display: flex;
   font-weight: 700;
   text-align: center;
@@ -7,7 +8,7 @@
 
 .menu__list {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: space-between;
   align-items: center;
   margin-left: 57px;
