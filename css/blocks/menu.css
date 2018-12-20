@@ -2,8 +2,9 @@
   width: 100%;
   display: flex;
   font-weight: 700;
-  text-align: center;
   text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu__list {
@@ -11,10 +12,8 @@
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
-  margin-left: 57px;
 }
 .menu__item {
-  padding-right: 30px;
 }
 .menu__title {
   color: #221f1f;
