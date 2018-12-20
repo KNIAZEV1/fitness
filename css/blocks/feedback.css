@@ -1,9 +1,10 @@
 .feedback {
+  width: 100%;
   margin-top: ;
 }
 
 .feedback__container {
-  width: 870px;
+  width: 100%;
 }
 .feedback__list {
   display: flex;

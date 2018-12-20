@@ -1,6 +1,7 @@
 .partners {
-  width: 880px;
-  margin-bottom: 4px;
+  width: 100%;
+  min-height: 775px;
+  border: 1px solid #221f1f
 }
 
 .partners__list {
@@ -33,7 +34,7 @@
 }
 
 .partners__title {
-  display: flex;
-  margin: 0;
-  margin-bottom: 63px;
+  color: #221f1f;
+  font-size: 18px;
+  text-transform: uppercase;
 }
