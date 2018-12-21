@@ -1,3 +1,7 @@
+.breadcrumbs {
+  margin-left: 5px;
+}
+
 .breadcrumbs__list {
   display: flex;
 }
