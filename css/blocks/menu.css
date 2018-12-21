@@ -17,7 +17,7 @@
 }
 .menu__title {
   color: #221f1f;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .menu__item:last-child {
@@ -51,6 +51,7 @@
   position: absolute;
   width: 20px;
   height: 18px;
+  margin-left: 3px;
   background: url('../../img/sprite.png') -50px -48px;
 }
 
@@ -77,6 +78,7 @@
   position: absolute;
   width: 19px;
   height: 14px;
+  margin-left: -2px;
   background: url('../../img/sprite.png') -90px -44px;
 }
 
