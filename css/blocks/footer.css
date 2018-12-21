@@ -7,6 +7,7 @@
 }
 
 .footer__container {
+  width: 1160px;
   min-height: 75px;
   position: relative;
   display: flex;
