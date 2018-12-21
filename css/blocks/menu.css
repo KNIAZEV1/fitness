@@ -12,8 +12,10 @@
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
+  margin-right: 20px;
 }
 .menu__item {
+  margin-bottom: 20px;
 }
 .menu__title {
   color: #221f1f;

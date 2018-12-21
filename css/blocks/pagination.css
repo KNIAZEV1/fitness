@@ -3,15 +3,16 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin-bottom: 50px;
   clear: both;
+  margin-right: 19px;
+  margin-top: 13px;
 }
 
 .pagination__display {
   color: #656464;
   font-family: "Roboto";
   font-size: 14px;
-  margin-right: 20px;
+  margin-right: 17px;
 }
 
 .pagination__controlls {
@@ -22,7 +23,7 @@
 }
 
 .pagination__item {
-  margin-right: 20px;
+  margin-right: 21px;
   flex-direction: row;
 }
 .pagination__link {
@@ -34,7 +35,6 @@
 }
 .pagination__list {
   display: flex;
-  margin-bottom: 5px;
   flex-direction: row;
 }
 

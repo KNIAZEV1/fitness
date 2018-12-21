@@ -1,12 +1,14 @@
 .news {
   width: 810px;
+  margin: -44px;
 }
 
 .news__container {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  margin-bottom: 22px;
+  margin: 27px;
+  margin-top: -21px;
 }
 
 .news__avatar {
@@ -14,6 +16,8 @@
   min-height: 160px;
   text-align: left;
   float: left;
+  margin-left: -16px;
+  margin-top: 8px;
 }
 
 .news__avatar-pic {
@@ -35,9 +39,7 @@
 }
 
 .news__title {
-  margin-bottom: 51px;
-  padding: 9px;
-  margin-right: 5px;
+  padding: 6px;
   letter-spacing: 1.5px;
   text-align: left;
 }
