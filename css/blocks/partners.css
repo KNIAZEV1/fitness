@@ -1,7 +1,9 @@
 .partners {
   width: 100%;
   min-height: 775px;
-  border: 1px solid #221f1f
+  border: 1px solid #221f1f;
+  margin-top: 66px;
+  margin-left: -65px;
 }
 
 .partners__list {
@@ -37,4 +39,7 @@
   color: #221f1f;
   font-size: 18px;
   text-transform: uppercase;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  letter-spacing: 0.1px;
 }
