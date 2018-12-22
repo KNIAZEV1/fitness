@@ -1,22 +1,25 @@
 .partners {
   width: 100%;
-  min-height: 775px;
+  height: 775px;
   border: 1px solid #221f1f;
-  margin-top: 66px;
-  margin-left: -65px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .partners__list {
   display: flex;
-  flex-wrap: wrap;
-
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  min-height: 650px;
 }
 
-.partners__item {
+/* .partners__item {
   flex: 1 0 270px;
-  margin-bottom: 51px;
-  padding: 6px;
-}
+} */
 
 .partners__link {
   display: flex;
@@ -39,7 +42,5 @@
   color: #221f1f;
   font-size: 18px;
   text-transform: uppercase;
-  margin-top: 24px;
-  margin-bottom: 24px;
   letter-spacing: 0.1px;
 }

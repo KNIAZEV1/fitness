@@ -1,12 +1,18 @@
 .services {
-  width: 865px;
+  width: 100%;
   margin-top: 41px;
   margin-bottom: -22px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .services__list {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .services__item {
@@ -16,7 +22,6 @@
   font-size: 14px;
   flex: 1 0 270px;
   margin-bottom: 40px;
-  margin-left: 5px;
 }
 
 .services__text {

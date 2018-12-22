@@ -3,7 +3,7 @@
 }
 
 .page__container {
-  width: 100%;
+  width: 1135px;
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
@@ -11,7 +11,7 @@
 }
 
 .main {
-  width: 810px;
+  width: 840px;
   display: flex;
   align-items: center;
   justify-content: center;

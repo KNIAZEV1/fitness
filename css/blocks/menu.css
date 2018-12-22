@@ -12,8 +12,8 @@
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
 }
+
 .menu__item {
   margin-bottom: 20px;
 }
@@ -40,11 +40,26 @@
   color: #f89513;
 }
 
+.menu__item_active {
+
+}
+
 .menu__icon {
   width: 20px;
   min-height: 20px;
   margin-right: 20px;
   position: relative;
+}
+
+.menu__icon_main:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  margin-left: 3px;
+  background: url('../../img/sprite.png') -50px -48px;
+  opacity: 1;
 }
 
 .menu__icon_main:after {
@@ -54,11 +69,18 @@
   width: 20px;
   height: 18px;
   margin-left: 3px;
-  background: url('../../img/sprite.png') -50px -48px;
+  background: url('../../img/sprite.png') -10px -48px;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
-.menu__icon_main:hover:after {
-  background-position: -10px -48px;
+
+.menu__item_active .menu__icon_main:after {
+  opacity: 1;
+}
+
+.menu__item:hover .menu__icon_main:after {
+  opacity: 1;
 }
 
 .menu__icon_review:after {
@@ -68,6 +90,7 @@
   width: 20px;
   height: 18px;
   background: url('../../img/sprite.png') -50px -10px;
+  transition: 0.5s;
 }
 
 .menu__icon_review:hover:after {

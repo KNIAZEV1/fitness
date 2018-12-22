@@ -5,19 +5,11 @@
   align-items: center;
   min-height: 50px;
   letter-spacing: 0px;
-  margin-top: 33px;
-  margin-left: 19px;
 }
 
 .smm__text {
   font-size: 14px;
   font-weight: bold;
-  margin: 0;
-}
-
-.social {
-  margin-top: 9px;
-  margin-right: 16px;
 }
 
 .social__item {
@@ -36,7 +28,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   margin: 4px;
-    margin-top: 0px;
+  margin-top: 0px;
 }
 .social__list {
   display: flex;
