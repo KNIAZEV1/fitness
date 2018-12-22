@@ -12,11 +12,12 @@
   align-items: center;
   width: 700px;
   min-height: 425px;
-  margin: 60px 60px;
   background-color: #f5f5f5;
   color: #221f1f;
   font-size: 14px;
   font-weight: 300;
+  margin-top: 84px;
+  margin-bottom: 60px;
 }
 
 .review-form__content {

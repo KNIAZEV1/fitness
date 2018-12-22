@@ -1,13 +1,12 @@
 .services {
-  width: 100%;
+  width: 865px;
   margin-top: 41px;
-  margin-left: -54px;
 }
 
 .services__list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -12px;
+  margin-bottom: -28px;
 }
 
 .services__item {
@@ -17,10 +16,11 @@
   font-size: 14px;
   flex: 1 0 270px;
   margin-bottom: 40px;
+  margin-left: 5px;
 }
 
 .services__text {
-  width: 85%;
+  width: 92%;
   line-height: 1.5em;
   margin: 0;
   font-weight: 300;
