@@ -17,14 +17,7 @@
   min-height: 650px;
 }
 
-/* .partners__item {
-  flex: 1 0 270px;
-} */
-
 .partners__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   filter: grayscale(100%);
 }
 
@@ -39,8 +32,10 @@
 }
 
 .partners__title {
+  margin-bottom: 0;
   color: #221f1f;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.1px;
+  margin-top: 35px;
 }

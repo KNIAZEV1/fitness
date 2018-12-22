@@ -1,3 +1,7 @@
+ul {
+  padding: 0;
+}
+
 .smm {
   display: flex;
   flex-direction: column;
@@ -10,6 +14,7 @@
 .smm__text {
   font-size: 14px;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .social__item {

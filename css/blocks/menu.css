@@ -1,21 +1,18 @@
 .menu {
-  width: 100%;
-  display: flex;
+  min-height: 190px;
   font-weight: 700;
   text-transform: uppercase;
-  align-items: center;
-  justify-content: center;
+  display: flex;
 }
 
 .menu__list {
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .menu__item {
-  margin-bottom: 20px;
 }
 .menu__title {
   color: #221f1f;
