@@ -1,12 +1,12 @@
 .services {
   width: 865px;
   margin-top: 41px;
+  margin-bottom: -22px;
 }
 
 .services__list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -28px;
 }
 
 .services__item {
