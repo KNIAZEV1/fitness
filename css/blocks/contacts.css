@@ -34,7 +34,7 @@
   height: 0;
   width: 160px;
   transition: height 0.5s;
-  margin-top: 65px;
+  top: 65px;
 }
 
 .contacts__block {
