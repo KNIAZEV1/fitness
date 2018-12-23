@@ -41,6 +41,7 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0;
 }
 .social__link {
   display: block;

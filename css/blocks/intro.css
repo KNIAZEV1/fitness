@@ -25,8 +25,6 @@
 }
 
 .intro__button {
-  width: 16%;
-  min-height: 50px;
   opacity: 0;
   transition-property: opacity;
   animation: bounceIn 1.5s .5s;
@@ -38,7 +36,6 @@
 }
 
 .intro__button-submit {
-  width: 100%;
   min-height: 60px;
   background-color: #f89513;
   border-radius: 3px;

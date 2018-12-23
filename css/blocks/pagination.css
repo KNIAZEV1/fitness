@@ -30,6 +30,7 @@
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
+  margin: 0;
 }
 .pagination__list {
   display: flex;

@@ -1,5 +1,5 @@
 .menu {
-  min-height: 190px;
+  min-height: 120px;
   font-weight: 700;
   text-transform: uppercase;
   display: flex;
@@ -8,8 +8,9 @@
 .menu__list {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
 
 .menu__title {

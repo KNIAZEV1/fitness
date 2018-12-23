@@ -1,5 +1,6 @@
 .breadcrumbs__list {
   display: flex;
+  margin: 0;
 }
 
 .breadcrumbs__link {
