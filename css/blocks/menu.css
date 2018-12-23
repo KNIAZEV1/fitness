@@ -51,6 +51,7 @@
   margin-left: 3px;
   background: url('../../img/sprite.png') -50px -48px;
   opacity: 1;
+  top: 2px;
 }
 
 .menu__icon_main:after {
