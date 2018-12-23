@@ -1,9 +1,8 @@
 .review-form {
   display: flex;
   justify-content: center;
-  margin-top: -29px;
-  margin-left: -42px;
-  margin-bottom: -52px;
+  margin-top: 50px;
+  margin-bottom: 35px;
 }
 
 .review-form__container {
@@ -16,8 +15,6 @@
   color: #221f1f;
   font-size: 14px;
   font-weight: 300;
-  margin-top: 84px;
-  margin-bottom: 60px;
 }
 
 .review-form__content {
@@ -25,8 +22,6 @@
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
-  width: 565px;
-  min-height: 325px;
 }
 .review-form__form {
   display: flex;

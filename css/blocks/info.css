@@ -7,7 +7,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .info__content {
@@ -15,7 +15,6 @@
   min-height: 375px;
   letter-spacing: normal;
   line-height: 1.667;
-  padding: 7px;
 }
 
 .info__text {

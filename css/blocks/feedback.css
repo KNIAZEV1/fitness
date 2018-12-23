@@ -1,45 +1,44 @@
-.feedback {
+.feedback, .feedback__container {
   width: 100%;
-  margin-top: ;
 }
 
-.feedback__container {
-  width: 100%;
-  margin-top: 39px;
-  margin-left: 7px;
-}
 .feedback__list {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .feedback__avatar {
-  width: 25%;
-  min-height: 160px;
-  text-align: left;
+  width: 175px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .feedback__avatar_no-photo {
-  min-height: 160px;
-  border-radius: 50%;
-  padding: 0 79px;
+  width: 175px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 175px;
+  border-radius: 100%;
   background: url(../../img/rev-vector.png) center center no-repeat rgba(0, 0, 0, .2);
   opacity: 0.3;
 }
 
 .feedback__avatar-pic {
   border-radius: 100%;
-  width: 92%;
-  min-height: 100%;
+  width: 100%;
 }
 
 .feedback__item {
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: center;
   margin-bottom: 29px;
   padding-bottom: 38px;
   border-bottom: 2px solid #f5f5f5;
@@ -50,15 +49,12 @@
 
 .feedback__content {
   width: 79%;
-  margin-top: -7px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .feedback__title {
-  text-align: left;
-  margin: 8px;
-  margin-left: 0;
-  margin-bottom: 30px;
+  display: flex;
+  margin: 0px;
 }
 
 .feedback__date {
@@ -72,6 +68,6 @@
 }
 
 .feedback__text {
-  width: 111%;
   margin: 0;
+  margin-top: 5px;
 }
