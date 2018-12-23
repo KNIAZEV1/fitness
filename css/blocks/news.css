@@ -49,6 +49,7 @@
 .news__title {
   display: flex;
   margin: 0px;
+  margin-top: 5px;
 }
 
 .news__date {
