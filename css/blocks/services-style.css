@@ -1,6 +1,5 @@
 .services {
   width: 100%;
-  margin-top: 24px;
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
@@ -12,6 +11,8 @@
   flex-flow: row wrap;
   align-items: baseline;
   justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 0;
 }
 
 .services__item {
@@ -34,8 +35,6 @@
 .services__title {
   display: flex;
   margin: 0px;
-  margin-top: 6px;
-  margin-bottom: 34px;
 }
 
 .services__name {
@@ -59,8 +58,8 @@
   max-width: 250px;
   max-height: 153px;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .services__image {
