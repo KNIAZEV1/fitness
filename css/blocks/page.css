@@ -8,6 +8,7 @@
   flex-flow: row nowrap;
   align-items: flex-start;
   justify-content: center;
+  margin-top: 47px;
 }
 
 .main {
@@ -17,5 +18,4 @@
   justify-content: center;
   flex-flow: column;
   margin-left: 25px;
-  margin-top: 45px;
 }

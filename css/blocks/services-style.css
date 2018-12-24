@@ -49,9 +49,11 @@
   color: #fff;
   text-transform: uppercase;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  top: 40px;
 }
+
 .services__cover {
   position: relative;
   max-width: 250px;
