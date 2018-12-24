@@ -8,8 +8,9 @@
 
 .pagination__display {
   color: #656464;
-  font-family: "Roboto";
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   margin-right: 17px;
 }
 
@@ -24,14 +25,16 @@
   margin-right: 21px;
   flex-direction: row;
 }
+
 .pagination__link {
   color: #221f1f;
-  font-family: "Roboto";
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 14px;
   text-decoration: none;
   margin: 0;
 }
+
 .pagination__list {
   display: flex;
   flex-direction: row;
@@ -44,16 +47,19 @@
   border-radius: 3px;
   color: #fff;
 }
+
 .pagination__link:hover {
   color: #f89513;
   transition: 0.5s;
 }
+
 .pagination__prev {
   text-decoration: none;
   color: #656464;
   font-family: "Roboto";
   margin-right: 20px;
 }
+
 .pagination__next {
   text-decoration: none;
   font-family: "Roboto";
