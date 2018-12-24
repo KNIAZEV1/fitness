@@ -222,49 +222,56 @@
 
           <section class="review-form">
             <div class="container review-form__container">
-              <div class="review-form__content">
-                <h4 class="review-form__title">Оставить отзыв</h4>
-                <form action="" method="" enctype="" autocomplete class="review-form__form">
-                  <div class="review-form__top">
-                    <div class="review-form__top-name">
-                      <label for="name">
-                        <div class="review-form__desc">Ваше имя</div>
+
+                <form action="" class="form__elem">
+                  <div class="form__title">Оставить отзыв</div>
+                  <div class="form__content">
+                    <div class="form__row">
+                      <label class="form__block">
+                        <div class="form__block-title">Ваше имя</div>
+                        <input type="text" class="form__input" placeholder="Андрей">
                       </label>
-                      <input type="text" id="name" placeholder="Андрей" class="review-form__name-value">
+                      <label class="form__block">
+                        <div class="form__block-title">Ссылка на профиль VK</div>
+                        <input type="text" class="form__input" placeholder="vk.com/example">
+                      </label>
                     </div>
-                    <div class="review-form__top-vk">
-                      <label for="vk">
-                        <div class="review-form__desc">Ссылка на профиль VK</div>
+                    <div class="form__row">
+                      <label class="form__block">
+                        <div class="form__block-title">Текст отзыва</div>
+                        <textarea name=""class="form__input form__input--textarea" placeholder="Мне понравилось"></textarea>
                       </label>
-                      <input type="url" id="vk" placeholder="vk.com/example" class="review-form__vk-value">
                     </div>
                   </div>
-                  <div class="review-form__middle">
-                    <label for="review">
-                      <div class="review-form__desc">Текст отзыва</div>
-                    </label>
-                    <textarea name="review-text" id="review" class="review-form__textarea-text" placeholder="Мне понравилось"></textarea>
-                  </div>
-                  <div class="review-form__end">
-                    <div class="review-form__radio">
-                      <div class="review-form__desc">Отображать фото в отзыве?</div>
-                      <label for="yes">
-                        <input type="radio" id="yes" name="photo" class="review-form__radio-answer" checked>
-                        <span class="label">Да</span>
-                      </label>
-                      <label for="no">
-                        <input type="radio" id="no" name="photo" class="review-form__radio-answer">
-                        <span class="label">Нет</span>
-                      </label>
+                  <div class="form__buttons">
+                    <div class="form__controls-area">
+                      <div class="form-controlls">
+                        <div class="form-controlls__title">Отображать фото в отзыве?</div>
+                        <div class="form-controlls__buttons">
+                          <label class="form-controlls__btn">
+                            <input type="radio" name="answer" class="form-controlls__real-radio">
+                            <div class="form-controlls__fake-radio"></div>
+                            <div class="form-controlls__btn-title">Да</div>
+                          </label>
+                          <label class="form-controlls__btn">
+                            <input type="radio" name="answer" class="form-controlls__real-radio">
+                            <div class="form-controlls__fake-radio"></div>
+                            <div class="form-controlls__btn-title">Нет</div>
+                          </label>
+                        </div>
+                      </div>
                     </div>
-                    <div class="review-form__button">
-                      <button type="submit" class="review-form__button-submit">Отправить</button>
+                    <div class="form__buttons-area">
+                      <div class="form__buttons-item">
+                      <div class="form__buttons-item">
+                        <button type="submit" class="btn">Отправить</button>
+                      </div>
                     </div>
                   </div>
                 </form>
-              </div>
-            </div>
-          </section>
+
+          </div>
+        </section>
 
         </div>
         <!-- page-container end -->

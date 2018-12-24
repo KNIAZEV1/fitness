@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 700px;
+  width: 760px;
   min-height: 425px;
   background-color: #f5f5f5;
   color: #221f1f;
@@ -17,108 +17,149 @@
   font-weight: 300;
 }
 
-.review-form__content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column wrap;
+.form__elem {
+  width: 73%;
 }
-.review-form__form {
-  display: flex;
-  flex-direction: column;
-  width: 99%;
-}
-.review-form__title {
+
+.form__title {
   font-size: 49px;
   font-weight: bold;
   margin: 0;
-  margin-right: 144px;
-}
-.review-form__top {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-.review-form__top-name,
-.review-form__top-vk {
-  width: 49%;
-}
-.review-form__desc {
-  margin-bottom: 10px;
 }
 
-.review-form__name-value,
-.review-form__vk-value,
-.review-form__textarea-text {
+.form__row {
+  display: flex;
+}
+
+.form__row:last-child {
+  margin-bottom: 0;
+}
+
+.form__block {
+  flex: 1;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+
+.form__block-title {
+  padding-bottom: 10px;
+}
+
+.form__block:last-child {
+  margin-right: 0;
+}
+
+.form__input {
   width: 100%;
   border: 1px solid #fff;
   border-radius: 3px;
-  min-height: 45px;
   padding: 15px 9px;
   outline: none;
 }
 
-.review-form__name-value:focus,
-.review-form__vk-value:focus,
-.review-form__textarea-text:focus {
-  border-color: #f89513;
-  transition: 0.5s;
-}
-
-.review-form__textarea-text {
+.form__input:focus {
   width: 100%;
-  min-height: 90px;
-  margin-bottom: 10px;
-}
-.review-form__desc:focus {
-  border-color: #f89513;
-}
-
-.review-form__end {
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 50px;
- }
-.review-form__radio {
- width: 78%;
-}
-.review-form__radio-question {
-  margin-bottom: 10px;
-}
-.review-form__radio-answer {
-  cursor: pointer;
-}
-
-.review-form__radio-answer:hover {
-  background-color: #f89513;
-}
-
-.review-form__button {
-  align-self: flex-end;
-  width: 22%;
-}
-.review-form__button-submit {
-width: 100%;
-height: 45px;
-background-color: #1c1f1d;
-border-radius: 3px;
-color: #fff;
-text-transform: uppercase;
-font-size: 12px;
-font-weight: bold;
-cursor: pointer;
-}
-.review-form__button-submit:hover {
-  background-color: #f89513;
+  border: 1px solid #f89513;
   transition: 0.5s;
 }
 
-.label {
+.form__input::placeholder {
+  color: rgba(34, 31, 31, 0.5);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.form__input--textarea {
+  resize: vertical;
+  padding: 25px 9px;
+}
+
+.form__buttons {
+  display: flex;
+}
+
+.form__controls-area {
+  width: 40%;
+}
+
+.form-controlls__title {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-controlls__buttons {
+  display: flex;
+}
+
+.form-controlls__btn {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.form-controlls__btn:last-child {
+  margin-right: 0;
+}
+
+.form-controlls__real-radio {
+  display: none;
+}
+
+.form-controlls__fake-radio {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #c9c9c9;
+  background-image: linear-gradient(to top, #ededed, #ffffff);
+  position: relative;
+  margin-right: 10px;
+}
+
+.form-controlls__real-radio:checked~.form-controlls__fake-radio:after {
+  width: 8px;
+  height: 8px;
+}
+
+.form-controlls__real-radio:checked~.form-controlls__fake-radio {
+  border-color: #f89513;
+}
+
+.form-controlls__real-radio:checked~.form-controlls__btn-title {
+  color: #f89513;
+}
+
+.form-controlls__fake-radio:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background: #f89513;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3s;
+}
+
+.btn {
+  padding: 15px;
+  border-radius: 3px;
+  letter-spacing: 2.4px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  background: #1c1f1d;
   cursor: pointer;
 }
 
-.label:focus {
- background-color: #f89513;
+.form__buttons-area {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+.btn:hover {
+  background-color: #f89513;
+  transition: 0.5s;
 }
