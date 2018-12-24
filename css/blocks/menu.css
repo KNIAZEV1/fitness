@@ -8,7 +8,7 @@
 .menu__list {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0;
 }

@@ -1,25 +1,26 @@
 .info {
   width: 100%;
-  min-height: 435px;
   color: white;
   background: url(../../img/rev-back.png);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .info__content {
-  width: 225px;
+  width: 245px;
   min-height: 375px;
   letter-spacing: normal;
   line-height: 1.667;
+  padding: 19px 14px;
 }
 
 .info__text {
   width: 100%;
   text-align: center;
+  margin: 0;
 }
 
 .info__text-phrase {

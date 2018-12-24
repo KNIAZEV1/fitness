@@ -21,13 +21,18 @@
   align-items: baseline;
   font-size: 14px;
   flex: 1 0 270px;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
+
+}
+
+.services__content {
+  margin-top: 20px;
 }
 
 .services__text {
   width: 92%;
   line-height: 1.5em;
-  margin: 0;
+  margin: 5px 0px;
   font-weight: 300;
   font-size: 14px;
 }
@@ -39,7 +44,6 @@
 
 .services__name {
   margin: 0;
-  margin-top: 20px;
   font-size: 18px;
 }
 
@@ -51,7 +55,7 @@
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 40px;
+  top: 37px;
 }
 
 .services__cover {

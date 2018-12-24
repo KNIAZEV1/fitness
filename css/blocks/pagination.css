@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin-left: 110px;
+  margin-left: 114px;
 }
 
 .pagination__display {
@@ -22,7 +22,7 @@
 }
 
 .pagination__item {
-  margin-right: 21px;
+  margin-right: 15px;
   flex-direction: row;
 }
 
@@ -38,6 +38,7 @@
 .pagination__list {
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 .pagination__link_active {
