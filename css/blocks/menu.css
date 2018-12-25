@@ -1,5 +1,5 @@
 .menu {
-  min-height: 125px;
+  min-height: 127px;
   font-weight: 700;
   text-transform: uppercase;
   display: flex;
@@ -8,15 +8,11 @@
 .menu__list {
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 0;
 }
 
-.menu__title {
-  color: #221f1f;
-  font-size: 12px;
-}
 
 .menu__item:last-child {
   margin: 0;
@@ -25,18 +21,27 @@
 .menu__link {
   display: flex;
   text-decoration: none;
+  position: relative;
+  color: #221f1f;
+  font-size: 12px;
+  text-decoration: none;
 }
 
-.menu__title:hover {
+.menu__item {
+  display: flex;
+}
+
+.menu__link:hover {
   color: #f89513;
   transition: color 0.5s;
 }
 
-.menu__item_active .menu__title {
+
+.menu__item_active .menu__link{
   color: #f89513;
 }
 
-.menu__item:hover .menu__title {
+.menu__item:hover .menu__link {
   color: #f89513;
   transition: color 0.5s;
 }
@@ -72,7 +77,6 @@
   opacity: 0;
   transition: opacity 0.5s;
 }
-
 
 .menu__item_active .menu__icon_main:after {
   opacity: 1;

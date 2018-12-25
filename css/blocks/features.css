@@ -7,7 +7,7 @@
   width: 100%;
   border: 1px solid #221f1f;
   position: relative;
-  margin-top: 20px;
+  margin-top: 11px;
 }
 
 .features__title{
@@ -43,6 +43,7 @@
 
 .features__text-desc {
   font-size: 18px;
+  margin-bottom: 13px;
 }
 
 .features__text-list {
@@ -53,4 +54,5 @@
   list-style: disc;
   text-align: start;
   letter-spacing: 0.1em;
+  line-height: 33px;
 }
