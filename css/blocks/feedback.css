@@ -1,6 +1,6 @@
 .feedback {
   width: 100%;
-  padding: 4px 1px;
+  margin-top: 41px;
 }
 
 .feedback__list {
@@ -40,8 +40,8 @@
   flex-flow: row nowrap;
   align-items: flex-start;
   justify-content: center;
-  margin-bottom: 41px;
-  padding-bottom: 18px;
+  margin-bottom: 29px;
+  padding-bottom: 32px;
   border-bottom: 2px solid #f5f5f5;
 }
 .feedback__item:last-child {
