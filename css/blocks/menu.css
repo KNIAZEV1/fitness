@@ -5,6 +5,10 @@
   display: flex;
 }
 
+.menu_reviews {
+  min-height: 145px;
+}
+
 .menu__list {
   display: flex;
   flex-flow: column;
