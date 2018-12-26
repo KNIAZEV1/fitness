@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin-left: 181px;
+  margin-left: 180px;
+  margin-top: 20px;
 }
 
 .pagination__display {
