@@ -1,6 +1,6 @@
 .partners {
   width: 100%;
-  height: 775px;
+  min-height: 775px;
   border: 1px solid #221f1f;
   display: flex;
   flex-flow: column nowrap;
@@ -15,7 +15,8 @@
   justify-content: space-around;
   align-items: center;
   align-content: space-around;
-  min-height: 650px;
+  min-height: 685px;
+  margin: 0;
 }
 
 .partners__link {
@@ -33,10 +34,9 @@
 }
 
 .partners__title {
-  margin-bottom: 0;
   color: #221f1f;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.1px;
-  margin-top: 35px;
+  margin: 0;
 }

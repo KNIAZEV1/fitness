@@ -7,14 +7,13 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .main {
-  width: 840px;
+  width: 74%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-flow: column;
-  margin-left: 25px;
 }

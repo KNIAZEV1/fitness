@@ -11,10 +11,9 @@
 }
 
 .info__content {
-  min-height: 375px;
   letter-spacing: normal;
   line-height: 1.667;
-  padding: 19px 14px;
+  width: 79%;
   line-height: 33px;
 }
 

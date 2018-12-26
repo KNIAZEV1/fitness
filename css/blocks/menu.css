@@ -13,6 +13,10 @@
   margin: 0;
 }
 
+.menu__list_services {
+    justify-content: space-between;
+}
+
 
 .menu__item:last-child {
   margin: 0;

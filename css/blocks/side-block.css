@@ -4,6 +4,14 @@
   margin-top: 26px;
 }
 
+.sideblock_reviews {
+  margin-top: 32px;
+}
+
+.sideblock_services {
+  margin-top: 49px;
+}
+
 .sideblock__container {
   width: 100%;
   display: flex;

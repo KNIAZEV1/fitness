@@ -3,8 +3,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin-left: 180px;
-  margin-top: 20px;
+  margin-left: 189px;
+  margin-top: 16px;
+}
+
+.pagination_reviews {
+  margin-left: 107px;
 }
 
 .pagination__display {
