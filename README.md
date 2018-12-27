@@ -34,6 +34,6 @@
 
 # Контактная информация
 
-* Моб.: +7(978)128-13-37
+* Mobile: +7(978)128-13-37
 * skype: i.kniazev
 * email: ilia.kniazev1@gmail.com
